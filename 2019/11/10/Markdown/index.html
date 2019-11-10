@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="HAHA">
 <meta property="og:description" content="Markdown learn notesThis prage is used to record the language markdown processing. The reference website: https:&#x2F;&#x2F;blog.csdn.net&#x2F;witnessai1&#x2F;article&#x2F;details&#x2F;52551362  Markdown Features1. 斜体和粗体Code： 1234">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-10T07:38:46.982Z">
+<meta property="og:updated_time" content="2019-11-10T08:24:35.810Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -362,7 +362,16 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;http://www.baidu.com&gt;</span><br></pre></td></tr></table></figure>
 <p>The preview of the code above:</p>
 <p><a href="http://www.baidu.com" target="_blank" rel="noopener">http://www.baidu.com</a></p>
-<h3 id="锚点"><a href="#锚点" class="headerlink" title="锚点"></a>锚点</h3><h3 id="代码插入"><a href="#代码插入" class="headerlink" title="代码插入"></a>代码插入</h3><h4 id="Code-Segment-Inserted"><a href="#Code-Segment-Inserted" class="headerlink" title="Code Segment Inserted"></a>Code Segment Inserted</h4><p>Code:</p>
+<h3 id="锚点"><a href="#锚点" class="headerlink" title="锚点"></a>锚点</h3><p>网页中，锚点就是页内的超链接，也就是文档内部的元素，实现当前页中的跳转。如此，在这添加一个锚点，跳转到目录。在目录中点击这一节，就跳转到对应的章节。还有下一节的注脚。这些都是用锚点来实现的。</p>
+<p>注意：</p>
+<ol>
+<li>Markdown Extra只支持在标题后插入锚点，其他地方无效。</li>
+<li>leanote编辑器右侧显示效果区域暂时不支持锚点跳转，所以点来点去没有反应，不必惊慌。<br>语法说明：</li>
+</ol>
+<p>在你准备跳转到的指定标题后插入锚点，然后在文档其他地方写上连接到锚点的链接。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">## Markdown Features &#123;#index&#125;</span><br><span class="line">跳转到[页首](#index)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">TBD #2019/11/10 hongsong notes:</span><br><span class="line">在文中添加锚点有问题。暂时只做到这了。</span><br></pre></td></tr></table></figure>
+<h3 id="代码插入"><a href="#代码插入" class="headerlink" title="代码插入"></a>代码插入</h3><h4 id="Code-Segment-Inserted"><a href="#Code-Segment-Inserted" class="headerlink" title="Code Segment Inserted"></a>Code Segment Inserted</h4><p>Code:</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> </span><br></pre></td></tr></table></figure>
 <pre><code>Code
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">``` </span><br><span class="line">The preview of the code</span><br></pre></td></tr></table></figure></code></pre><p>Code</p>
